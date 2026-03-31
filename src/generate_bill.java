@@ -65,6 +65,7 @@ public class generate_bill extends JFrame implements ActionListener{
         setLocation(350,40);
     }
     public void actionPerformed(ActionEvent ae){
+        // this line causes error so i put this on try catch block
         try{
             conn c = new conn();
 
