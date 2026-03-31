@@ -14,7 +14,7 @@ public class customer_details extends JFrame implements ActionListener{
         super("Customer Details");
         setSize(1200,650);
         setLocation(200,200);
-
+// this line causes error so i put this in on the try catch block
         try{
             conn c1  = new conn();
             String s1 = "select * from emp";
