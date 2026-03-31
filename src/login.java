@@ -69,7 +69,7 @@ public class login extends JFrame implements ActionListener
 
 
     public void actionPerformed(ActionEvent ae){
-
+// this line causes exception so i putit inside  a try catch block
         try{
             conn c1 = new conn();
             String a  = tf1.getText();
