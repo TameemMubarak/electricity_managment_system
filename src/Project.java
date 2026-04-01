@@ -222,6 +222,7 @@ public class Project extends JFrame implements ActionListener{
 
         }else if(msg.equals("Notepad")){
             try{
+                // this is inside the try block
                 Runtime.getRuntime().exec("notepad.exe");
             }catch(Exception e){ }
         }else if(msg.equals("Calculator")){
