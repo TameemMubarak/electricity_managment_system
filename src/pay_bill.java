@@ -6,7 +6,7 @@ public class pay_bill extends JFrame{
     pay_bill(){
         JEditorPane j = new JEditorPane();
         j.setEditable(false);
-
+// this inside the try block
         try {
             j.setPage("https://paytm.com/electricity-bill-payment");
         }catch (Exception e) {
