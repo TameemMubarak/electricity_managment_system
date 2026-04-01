@@ -105,7 +105,7 @@ public class calculate_bill extends JFrame implements ActionListener
         int p3 = p2+50+12+102+20+50;
 
         String q = "insert into bill values('"+a+"','"+c+"','"+b+"','"+p3+"')";
-
+// this is inside the try block;
         try{
             conn c1 = new conn();
             c1.s.executeUpdate(q);
