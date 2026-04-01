@@ -6,6 +6,7 @@ public class conn
     Statement s;
     public conn()
     {
+        // this is inside the try block
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
