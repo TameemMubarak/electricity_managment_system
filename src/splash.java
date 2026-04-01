@@ -12,6 +12,7 @@ public class splash
         {
             f1.setLocation(800-((i+x)/2),500-(i/2));
             f1.setSize((i+x),i);
+            // this is inside try block
             try
             {
                 Thread.sleep(10);
