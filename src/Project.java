@@ -24,7 +24,7 @@ public class Project extends JFrame implements ActionListener{
         master.setForeground(Color.BLUE);
 
 
-        /* ---- Customer Details ---- */
+        /* ---- Customer Details --- */
         m1.setFont(new Font("monospaced",Font.PLAIN,12));
         ImageIcon icon1 = new ImageIcon(ClassLoader.getSystemResource("images/icon1.jpg"));
         Image image1 = icon1.getImage().getScaledInstance(20, 20,Image.SCALE_DEFAULT);
