@@ -86,7 +86,7 @@ public class new_customer extends JFrame implements ActionListener{
         String h = t7.getText();
 
         String q1 = "insert into emp values('"+a+"','"+c+"','"+d+"','"+e+"','"+f+"','"+g+"','"+h+"')";
-//this is inside try catch block
+//this is inside try catch block.
         try{
             conn c1 = new conn();
             c1.s.executeUpdate(q1);
