@@ -69,8 +69,6 @@ public class login extends JFrame implements ActionListener
 
 
     public void actionPerformed(ActionEvent ae){
-// th
-        
         try{
             conn c1 = new conn();
             String a  = tf1.getText();
