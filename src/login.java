@@ -69,7 +69,7 @@ public class login extends JFrame implements ActionListener
 
 
     public void actionPerformed(ActionEvent ae){
-// this 
+// th
         
         try{
             conn c1 = new conn();
