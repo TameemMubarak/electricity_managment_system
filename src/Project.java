@@ -55,7 +55,7 @@ public class Project extends JFrame implements ActionListener{
         m2.addActionListener(this);
         m3.addActionListener(this);
 
-        // --------------------------------------------------------------------------------------------
+        // ---------------------------------------------------------------------------------------
 
 
         /* Second Column */
