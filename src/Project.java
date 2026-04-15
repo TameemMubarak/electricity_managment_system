@@ -8,7 +8,7 @@ public class Project extends JFrame implements ActionListener{
 
         setSize(1500,800);
 
-        /* Adding background image */
+        /* Adding background image  */
         ImageIcon ic =  new ImageIcon(ClassLoader.getSystemResource("images/main.jpg"));
         Image i3 = ic.getImage().getScaledInstance(1420, 720,Image.SCALE_DEFAULT);
         ImageIcon icc3 = new ImageIcon(i3);
