@@ -63,7 +63,7 @@ public class LastBill extends JFrame implements ActionListener
                 t1.append("\n    City:                   "+rs.getString("city"));
                 t1.append("\n    Email:                "+rs.getString("email"));
                 t1.append("\n    Phone Number  "+rs.getString("phone"));
-                t1.append("\n------------------------------------------------------");
+                t1.append("\n----------------------------------------------------");
                 t1.append("\n");
             }
 
