@@ -74,7 +74,7 @@ public class Project extends JFrame implements ActionListener{
         u1.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
         u1.setBackground(Color.WHITE);
 
-        /* ---- Bill Details ---- */
+        /* ---- Bill Details ------*/
         u2.setFont(new Font("monospaced",Font.PLAIN,12));
         ImageIcon icon5 = new ImageIcon(ClassLoader.getSystemResource("images/icon5.png"));
         Image image5 = icon5.getImage().getScaledInstance(20, 20,Image.SCALE_DEFAULT);
